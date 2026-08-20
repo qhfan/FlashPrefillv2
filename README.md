@@ -189,6 +189,16 @@ python test_block_sparse.py       # block-sparse forward correctness
 ls bench/                         # operator- and index-level benchmark scripts
 ```
 
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE). It bundles
+or derives from the following third-party projects, which retain their own
+licenses:
+
+- `flashprefill_ops/` derives from FlashAttention-3 (BSD-3-Clause);
+- `csrc/cutlass/` contains NVIDIA CUTLASS headers (BSD-3-Clause);
+- `sglang_int/` contains the SGLang source tree (Apache-2.0).
+
 ## Acknowledgements
 
 FlashPrefill V2 builds on the following open-source projects:
