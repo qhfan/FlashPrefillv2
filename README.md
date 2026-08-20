@@ -204,7 +204,7 @@ licenses:
 FlashPrefill V2 builds on the following open-source projects:
 
 - [FlashAttention](https://github.com/Dao-AILab/flash-attention) — our attention operator is derived from the FlashAttention-3 Hopper implementation (TMA, warp specialization, pingpong scheduling), extended to block-sparse computation.
-- [FlashPrefill](https://github.com/EFanZh/FlashPrefill) — the block-level score estimation and max-based dynamic thresholding this work evolves from.
+- [FlashPrefill](https://github.com/qhfan/FlashPrefill) — the block-level score estimation and max-based dynamic thresholding this work evolves from.
 - [SGLang](https://github.com/sgl-project/sglang) — the serving framework our attention backend plugs into (`sglang_int/` is an SGLang 0.5.10 tree with the backend integrated).
 
 ## Citation
