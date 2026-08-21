@@ -11,7 +11,7 @@ prefill attention system for long-context LLM inference, with
 - **native paged-KV-cache and continuous-batching integration**, demonstrated
   with an SGLang attention backend.
 
-Paper: link to be added.
+Paper: https://arxiv.org/abs/2608.19758
 
 ## Repository Layout
 
@@ -209,4 +209,7 @@ FlashPrefill V2 builds on the following open-source projects:
 
 ## Citation
 
-Paper link to be added.
+```
+FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving
+https://arxiv.org/abs/2608.19758
+```
