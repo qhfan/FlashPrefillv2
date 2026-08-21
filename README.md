@@ -209,7 +209,13 @@ FlashPrefill V2 builds on the following open-source projects:
 
 ## Citation
 
-```
-FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving
-https://arxiv.org/abs/2608.19758
+If you find our work useful, please cite:
+
+```bibtex
+@article{fan2026flashprefillv2,
+  title   = {FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving},
+  author  = {Fan, Qihang and Huang, Huaibo and Wu, Zhiying and Wang, Bingning and He, Ran},
+  journal = {arXiv preprint arXiv:2608.19758},
+  year    = {2026}
+}
 ```
